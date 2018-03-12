@@ -89,10 +89,11 @@
 and realizing the relationship between L2-regularized MLR and Bayesian
 perspective. On <code>page 30</code>, he shows that if weights follow a
 gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form: </p>
-<div class="math">$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} {y(x_{n}, w) - t{n}}^2 + \frac{\alpha}{2}w^Tw $$</div>
+<div class="math">$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} (y(x_{n}, w) - t_{n})^2 + \frac{\alpha}{2}w^Tw $$</div>
 <p>Which is in similar form to L2-regularized MLR with:
 </p>
 <div class="math">$$ \lambda = \frac{\alpha}{\beta}$$</div>
+<p>NOTE: This finding was a result of healthy discussion with Tsu-Pei.</p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
