@@ -30,11 +30,11 @@
     <meta name="twitter:creator" content="">
     <meta name="twitter:url" content="./bayesian-inference-to-l2-regularized-mlr.html">
     <meta name="twitter:title" content="Satyanarayan Rao ~ Bayesian inference to L2-regularized MLR">
-    <meta name="twitter:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. $ \lambda = \frac{\alpha}{\beta}$">
+    <meta name="twitter:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. \( \lambda = \frac{\alpha}{\beta}\) if (!document.getElementById(&#39;mathjaxscript_pelican_ …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width">
 
     <!-- Facebook Meta Data -->
     <meta property="og:title" content="Satyanarayan Rao ~ Bayesian inference to L2-regularized MLR"/>
-    <meta property="og:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. $ \lambda = \frac{\alpha}{\beta}$"/>
+    <meta property="og:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. \( \lambda = \frac{\alpha}{\beta}\) if (!document.getElementById(&#39;mathjaxscript_pelican_ …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width"/>
     <meta property="og:image" content=""/>
 </head>
 
@@ -89,7 +89,62 @@
 and realizing the relationship between L2-regularized MLR and Bayesian
 perspective behind that. On <code>page 30</code>, he shows that the weights follow a
 gaussian distribution conditioned on selected hyper-parameter. </p>
-<p>$ \lambda = \frac{\alpha}{\beta}$ </p>
+<p><span class="math">\( \lambda = \frac{\alpha}{\beta}\)</span> </p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
             </div>
             <div class="post_list">
                 <span>By </span>
