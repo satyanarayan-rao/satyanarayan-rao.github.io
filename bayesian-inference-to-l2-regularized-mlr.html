@@ -30,11 +30,11 @@
     <meta name="twitter:creator" content="">
     <meta name="twitter:url" content="./bayesian-inference-to-l2-regularized-mlr.html">
     <meta name="twitter:title" content="Satyanarayan Rao ~ Bayesian inference to L2-regularized MLR">
-    <meta name="twitter:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. \( \lambda = \frac{\alpha}{\beta}\) if (!document.getElementById(&#39;mathjaxscript_pelican_ …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width">
+    <meta name="twitter:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective. On page 30, he shows that if weights follow a gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form …">
 
     <!-- Facebook Meta Data -->
     <meta property="og:title" content="Satyanarayan Rao ~ Bayesian inference to L2-regularized MLR"/>
-    <meta property="og:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective behind that. On page 30, he shows that the weights follow a gaussian distribution conditioned on selected hyper-parameter. \( \lambda = \frac{\alpha}{\beta}\) if (!document.getElementById(&#39;mathjaxscript_pelican_ …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width"/>
+    <meta property="og:description" content="I was really happy to read the chapter 1 of Bishop&#39;s Pattern Recognition book and realizing the relationship between L2-regularized MLR and Bayesian perspective. On page 30, he shows that if weights follow a gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form …"/>
     <meta property="og:image" content=""/>
 </head>
 
@@ -87,9 +87,12 @@
             <div class="entry-content blog-post">
                 <p>I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
 and realizing the relationship between L2-regularized MLR and Bayesian
-perspective behind that. On <code>page 30</code>, he shows that the weights follow a
-gaussian distribution conditioned on selected hyper-parameter. </p>
-<p><span class="math">\( \lambda = \frac{\alpha}{\beta}\)</span> </p>
+perspective. On <code>page 30</code>, he shows that if weights follow a
+gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form: </p>
+<div class="math">$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} {y(x_{n}, w) - t{n}}^2 + \frac{\alpha}{2}w^Tw $$</div>
+<p>Which is in similar form to L2-regularized MLR with:
+</p>
+<div class="math">$$ \lambda = \frac{\alpha}{\beta}$$</div>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
