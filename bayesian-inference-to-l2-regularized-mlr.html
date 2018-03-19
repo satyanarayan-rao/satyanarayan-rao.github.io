@@ -89,11 +89,16 @@
 and realizing the relationship between L2-regularized MLR and Bayesian
 perspective. On <code>page 30</code>, he shows that if weights follow a
 gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form: </p>
-<div class="math">$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} (y(x_{n}, w) - t_{n})^2 + \frac{\alpha}{2}w^Tw $$</div>
-<p>Which is in similar form to L2-regularized MLR with:
-</p>
+<div class="math">$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} \{y(x_{n}, \mathbf{w}) - t_{n}\}^2 + \frac{\alpha}{2}\mathbf{w}^T\mathbf{w} $$</div>
+<p>Which is similar to L2-regularized MLR with: </p>
 <div class="math">$$ \lambda = \frac{\alpha}{\beta}$$</div>
 <p>NOTE: This finding was a result of healthy discussion with Tsu-Pei.</p>
+<p>A good question asked in this context was:</p>
+<ul>
+<li>Why do I need to bother about the distribution in cases where the length of weight vector <span class="math">\(\mathbf{w}\)</span> very small, for example, 5 or less than 10. </li>
+</ul>
+<p>And my response to this questions was: 
+- Well, probably there may not be any need of regularization in these type of cases. Ideally, we use regularization when we have considerable number of features. </p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
