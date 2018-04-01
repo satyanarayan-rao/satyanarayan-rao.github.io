@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Satyanarayan Rao - python</title><link href="/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>/</id><updated>2018-03-09T00:00:00+01:00</updated><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+and, it is a bit of pain. Let me explain a couple of points which made me write
+this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Seaborn (sns)&lt;/code&gt; is an awesome tool to do the plotting &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Matplotlib&lt;/code&gt; is needed to do nitty-gritty changes in Seaborn …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+and, it is a bit of pain. Let me explain a couple of points which made me write
+this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Seaborn (sns)&lt;/code&gt; is an awesome tool to do the plotting &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Matplotlib&lt;/code&gt; is needed to do nitty-gritty changes in Seaborn plots&lt;/li&gt;
+&lt;li&gt;But saving &lt;code&gt;sns&lt;/code&gt; figures (directly in &lt;code&gt;.png&lt;/code&gt; format) with matplotlib changes
+  does a poor job of rendering &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, if we take some extra steps then it is possible to get all of we need: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First save the figure in &lt;code&gt;pdf&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;Try to use third-party tools (&lt;code&gt;ImageMagik&lt;/code&gt;) to convert &lt;code&gt;pdf&lt;/code&gt; to &lt;code&gt;png&lt;/code&gt; &lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>

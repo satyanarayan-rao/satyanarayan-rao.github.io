@@ -80,4 +80,22 @@ applications protein-DNA interactions.&lt;/p&gt;</summary><content type="html">&
 CpG methylation involves the addition of a methyl (CH&lt;sub&gt;3&lt;/sub&gt;) group on the
 C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has
 revealed insights into the methyl-induced structural deformations and its
-applications protein-DNA interactions.&lt;/p&gt;</content></entry></feed>
+applications protein-DNA interactions.&lt;/p&gt;</content></entry><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+and, it is a bit of pain. Let me explain a couple of points which made me write
+this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Seaborn (sns)&lt;/code&gt; is an awesome tool to do the plotting &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Matplotlib&lt;/code&gt; is needed to do nitty-gritty changes in Seaborn …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+and, it is a bit of pain. Let me explain a couple of points which made me write
+this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Seaborn (sns)&lt;/code&gt; is an awesome tool to do the plotting &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Matplotlib&lt;/code&gt; is needed to do nitty-gritty changes in Seaborn plots&lt;/li&gt;
+&lt;li&gt;But saving &lt;code&gt;sns&lt;/code&gt; figures (directly in &lt;code&gt;.png&lt;/code&gt; format) with matplotlib changes
+  does a poor job of rendering &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, if we take some extra steps then it is possible to get all of we need: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First save the figure in &lt;code&gt;pdf&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;Try to use third-party tools (&lt;code&gt;ImageMagik&lt;/code&gt;) to convert &lt;code&gt;pdf&lt;/code&gt; to &lt;code&gt;png&lt;/code&gt; &lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>

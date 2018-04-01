@@ -3,7 +3,7 @@
 <head>
             <meta charset="utf-8">
         <!-- Site Meta Data -->
-        <title>CpG/DNA methylation</title>
+        <title>High-resolution-figures with seaborn and matplotlib</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Satya">
@@ -30,13 +30,13 @@
         <meta name="twitter:image" content="">
 
     <meta name="twitter:creator" content="">
-    <meta name="twitter:url" content="/cpgdna-methylation.html">
-    <meta name="twitter:title" content="Satyanarayan Rao ~ CpG/DNA methylation">
-    <meta name="twitter:description" content="CpG methylation is an epigenetic modification on DNA. At the molecular level, CpG methylation involves the addition of a methyl (CH3) group on the C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has revealed insights into the methyl-induced structural deformations and its applications protein-DNA interactions.">
+    <meta name="twitter:url" content="/high-resolution-figures-with-seaborn-and-matplotlib.html">
+    <meta name="twitter:title" content="Satyanarayan Rao ~ High-resolution-figures with seaborn and matplotlib">
+    <meta name="twitter:description" content="Often we run into issues of generating high-resolution figures for publication, and, it is a bit of pain. Let me explain a couple of points which made me write this post. Seaborn (sns) is an awesome tool to do the plotting Matplotlib is needed to do nitty-gritty changes in Seaborn …">
 
     <!-- Facebook Meta Data -->
-    <meta property="og:title" content="Satyanarayan Rao ~ CpG/DNA methylation"/>
-    <meta property="og:description" content="CpG methylation is an epigenetic modification on DNA. At the molecular level, CpG methylation involves the addition of a methyl (CH3) group on the C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has revealed insights into the methyl-induced structural deformations and its applications protein-DNA interactions."/>
+    <meta property="og:title" content="Satyanarayan Rao ~ High-resolution-figures with seaborn and matplotlib"/>
+    <meta property="og:description" content="Often we run into issues of generating high-resolution figures for publication, and, it is a bit of pain. Let me explain a couple of points which made me write this post. Seaborn (sns) is an awesome tool to do the plotting Matplotlib is needed to do nitty-gritty changes in Seaborn …"/>
     <meta property="og:image" content=""/>
 </head>
 
@@ -71,9 +71,9 @@
         <ul class="navbar">
                 <li><a
                         href="/category/concepts.html">Concepts</a></li>
-                <li class="active"><a
-                        href="/category/fundamentals.html">Fundamentals</a></li>
                 <li><a
+                        href="/category/fundamentals.html">Fundamentals</a></li>
+                <li class="active"><a
                         href="/category/python.html">python</a></li>
         </ul>
 
@@ -88,21 +88,30 @@
 <article>
     <section id="content">
         <article>
-            <h2 class="post_title post_detail"><a href="/cpgdna-methylation.html" rel="bookmark"
-                                                  title="Permalink to CpG/DNA methylation">CpG/DNA methylation</a></h2>
+            <h2 class="post_title post_detail"><a href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="bookmark"
+                                                  title="Permalink to High-resolution-figures with seaborn and matplotlib">High-resolution-figures with seaborn and matplotlib</a></h2>
             <div class="entry-content blog-post">
-                <p>CpG methylation is an epigenetic modification on DNA. At the molecular level,
-CpG methylation involves the addition of a methyl (CH<sub>3</sub>) group on the
-C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has
-revealed insights into the methyl-induced structural deformations and its
-applications protein-DNA interactions.</p>
+                <p>Often we run into issues of generating high-resolution figures for publication,
+and, it is a bit of pain. Let me explain a couple of points which made me write
+this post.</p>
+<ul>
+<li><code>Seaborn (sns)</code> is an awesome tool to do the plotting </li>
+<li><code>Matplotlib</code> is needed to do nitty-gritty changes in Seaborn plots</li>
+<li>But saving <code>sns</code> figures (directly in <code>.png</code> format) with matplotlib changes
+  does a poor job of rendering </li>
+</ul>
+<p>However, if we take some extra steps then it is possible to get all of we need: </p>
+<ul>
+<li>First save the figure in <code>pdf</code> format</li>
+<li>Try to use third-party tools (<code>ImageMagik</code>) to convert <code>pdf</code> to <code>png</code> </li>
+</ul>
             </div>
             <div class="post_list">
                 <span>By </span>
                 <a href="/author/satya.html">@Satya</a>
                 <span> in </span>
-                <span class="post_category"><a href="/category/fundamentals.html" rel="bookmark"
-                                               title="Permalink to Fundamentals">[ Fundamentals ]</a></span>
+                <span class="post_category"><a href="/category/python.html" rel="bookmark"
+                                               title="Permalink to python">[ python ]</a></span>
                 <span class="post_date">Fri 09 March 2018</span>
                 <div><span>Tags : </span>
                 </div>
@@ -111,28 +120,28 @@ applications protein-DNA interactions.</p>
                     <span class="twitter"><a target="_blank" rel="nofollow"
                                              onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"
                                              title="Twitter"
-                                             href="https://twitter.com/share?url=/cpgdna-methylation.html&text=CpG/DNA methylation&via="><img
+                                             href="https://twitter.com/share?url=/high-resolution-figures-with-seaborn-and-matplotlib.html&text=High-resolution-figures with seaborn and matplotlib&via="><img
                             src="/theme/images/icons/twitter-s.png"></a></span>
 
                     <span class="gplus"><a target="_blank" title="Google +"
-                                           href="https://plus.google.com/share?url=/cpgdna-methylation.html&hl=fr"
+                                           href="https://plus.google.com/share?url=/high-resolution-figures-with-seaborn-and-matplotlib.html&hl=fr"
                                            rel="nofollow"
                                            onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
                             src="/theme/images/icons/google-s.png"></a></span>
 
                     <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow"
                                               onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"
-                                              href="https://www.facebook.com/sharer.php?u=/cpgdna-methylation.html&t=CpG/DNA methylation"><img
+                                              href="https://www.facebook.com/sharer.php?u=/high-resolution-figures-with-seaborn-and-matplotlib.html&t=High-resolution-figures with seaborn and matplotlib"><img
                             src="/theme/images/icons/facebook-s.png"></a></span>
 
                     <a target="_blank" title="Linkedin"
-                       href="https://www.linkedin.com/shareArticle?mini=true&url=/cpgdna-methylation.html&title=CpG/DNA methylation"
+                       href="https://www.linkedin.com/shareArticle?mini=true&url=/high-resolution-figures-with-seaborn-and-matplotlib.html&title=High-resolution-figures with seaborn and matplotlib"
                        rel="nofollow"
                        onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
                             src="/theme/images/icons/linkedin-s.png"></a>
 
                     <span class="mail"><a
-                            href="mailto:?subject=CpG/DNA methylation&amp;body=Viens découvrir un article à propos de [CpG/DNA methylation] sur le site de Satya. /cpgdna-methylation.html"
+                            href="mailto:?subject=High-resolution-figures with seaborn and matplotlib&amp;body=Viens découvrir un article à propos de [High-resolution-figures with seaborn and matplotlib] sur le site de Satya. /high-resolution-figures-with-seaborn-and-matplotlib.html"
                             title="Share by Email" target="_blank"><img
                             src="/theme/images/icons/mail-s.png"></a></span>
                 </div>
