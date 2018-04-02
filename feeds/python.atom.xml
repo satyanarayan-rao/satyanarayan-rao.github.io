@@ -18,4 +18,5 @@ this post.&lt;/p&gt;
 &lt;li&gt;First save the figure in &lt;code&gt;pdf&lt;/code&gt; format&lt;/li&gt;
 &lt;li&gt;Try to use third-party tools (&lt;code&gt;ImageMagik&lt;/code&gt;) to convert &lt;code&gt;pdf&lt;/code&gt; to &lt;code&gt;png&lt;/code&gt; &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please see the implementation &lt;a href="https://nbviewer.jupyter.org/github/satyausc/Hail-Python/blob/master/high-resolution-figures/Data_analyzer.ipynb"&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="high-resolution-images-in-python"></category><category term="publication level images"></category></entry></feed>
+&lt;p&gt;Please see the implementation &lt;a href="https://nbviewer.jupyter.org/github/satyausc/Hail-Python/blob/master/high-resolution-figures/Data_analyzer.ipynb"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt; &lt;a href="https://github.com/saketkc"&gt;Saket Choudhary&lt;/a&gt;&lt;/p&gt;</content><category term="high-resolution-images-in-python"></category><category term="publication level images"></category></entry></feed>
