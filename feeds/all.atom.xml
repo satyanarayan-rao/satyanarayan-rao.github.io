@@ -92,12 +92,20 @@ gaussian distribution conditioned on selected hyper-parameter, then the maximum 
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>CpG/DNA methylation</title><link href="/cpgdna-methylation.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/cpgdna-methylation.html</id><summary type="html">&lt;p&gt;CpG methylation is an epigenetic modification on DNA. At the molecular level,
+&lt;/script&gt;</content></entry><entry><title>CpG/DNA methylation</title><link href="/cpgdna-methylation.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/cpgdna-methylation.html</id><summary type="html">&lt;h1&gt;CpG methylation&lt;/h1&gt;
+&lt;p&gt;CpG methylation is an epigenetic modification on DNA. At the molecular level,
 CpG methylation involves the addition of a methyl (CH&lt;sub&gt;3&lt;/sub&gt;) group on the
-C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has
-revealed insights into the methyl-induced structural deformations and its
-applications protein-DNA interactions.&lt;/p&gt;</summary><content type="html">&lt;p&gt;CpG methylation is an epigenetic modification on DNA. At the molecular level,
+C5 atom of cytosine, yeilding 5-methylcytosine (5mC). Although the change is
+very small, but cumulative effect is profound, for example X-chromosome
+inactivation. Recent …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;CpG methylation&lt;/h1&gt;
+&lt;p&gt;CpG methylation is an epigenetic modification on DNA. At the molecular level,
 CpG methylation involves the addition of a methyl (CH&lt;sub&gt;3&lt;/sub&gt;) group on the
-C5 atom of cytosine, yeilding 5-methylcytosine (5mC). My research work has
-revealed insights into the methyl-induced structural deformations and its
-applications protein-DNA interactions.&lt;/p&gt;</content><category term="CpG methylation"></category><category term="methyl-induced shape-readout"></category><category term="methyl-DNAshape"></category></entry></feed>
+C5 atom of cytosine, yeilding 5-methylcytosine (5mC). Although the change is
+very small, but cumulative effect is profound, for example X-chromosome
+inactivation. Recent work have suggested impact of methylation on protein  My research work has revealed insights into the methyl-induced
+structural deformations and its applications protein-DNA interactions. &lt;/p&gt;
+&lt;h1&gt;My little contribution&lt;/h1&gt;
+&lt;p&gt;In my PhD work, I attempted to explain the effect of CpG methylation on
+shape-readout, one of the binding recognition mode, utilized by Transription
+Factors (TFs). The details can be found
+&lt;a href="https://doi.org/10.1186/s13072-018-0174-4"&gt;here&lt;/a&gt;. &lt;/p&gt;</content><category term="CpG methylation"></category><category term="methyl-induced shape-readout"></category><category term="methyl-DNAshape"></category></entry></feed>
