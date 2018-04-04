@@ -9,7 +9,7 @@ gaussian distribution conditioned on selected hyper-parameter, then the maximum 
 &lt;div class="math"&gt;$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} \{y(x_{n}, \mathbf{w}) - t_{n}\}^2 + \frac{\alpha}{2}\mathbf{w}^T\mathbf{w} $$&lt;/div&gt;
 &lt;p&gt;Which is similar to L2-regularized MLR with: &lt;/p&gt;
 &lt;div class="math"&gt;$$ \lambda = \frac{\alpha}{\beta}$$&lt;/div&gt;
-&lt;p&gt;NOTE: This finding was a result of healthy discussion with Tsu-Pei.&lt;/p&gt;
+&lt;p&gt;NOTE: This finding was a result of healthy discussion with &lt;a href="https://github.com/TsuPeiChiu"&gt;Tsu-Pei&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A good question asked in this context was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Why do I need to bother about the distribution in cases where the length of weight vector &lt;span class="math"&gt;\(\mathbf{w}\)&lt;/span&gt; very small, for example, 5 or less than 10. &lt;/li&gt;
