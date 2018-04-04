@@ -19,4 +19,9 @@ this post.&lt;/p&gt;
 &lt;li&gt;Try to use third-party tools (&lt;code&gt;ImageMagik&lt;/code&gt;) to convert &lt;code&gt;pdf&lt;/code&gt; to &lt;code&gt;png&lt;/code&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Please see the implementation &lt;a href="https://nbviewer.jupyter.org/github/satyausc/Hail-Python/blob/master/high-resolution-figures/Data_analyzer.ipynb"&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt; &lt;a href="https://github.com/saketkc"&gt;Saket Choudhary&lt;/a&gt;&lt;/p&gt;</content><category term="high-resolution-images-in-python"></category><category term="publication level images"></category></entry></feed>
+&lt;p&gt;A figure with detailed use of matplotlib in searborn plots can been viewed
+&lt;a href="http://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13072-018-0174-4/MediaObjects/13072_2018_174_Fig6_HTML.gif"&gt;here&lt;/a&gt;.
+All panels except &lt;code&gt;a&lt;/code&gt; is generated using seaborn customized with matplotlib.
+Codes are available &lt;a href="https://zenodo.org/record/1117976#.WsUcv1QrK91"&gt;here&lt;/a&gt;; see
+&lt;code&gt;HT_data_analyses&lt;/code&gt; and &lt;code&gt;Shape_analyses&lt;/code&gt; directories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;: &lt;a href="https://github.com/saketkc"&gt;Saket Choudhary&lt;/a&gt;&lt;/p&gt;</content><category term="high-resolution-images-in-python"></category><category term="publication level images"></category></entry></feed>
