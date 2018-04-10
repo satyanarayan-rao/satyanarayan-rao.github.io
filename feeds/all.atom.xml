@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Satyanarayan Rao</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-07T00:00:00+02:00</updated><entry><title>not-academics</title><link href="/not-academics.html" rel="alternate"></link><published>2018-04-07T00:00:00+02:00</published><updated>2018-04-07T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-04-07:/not-academics.html</id><summary type="html">&lt;h1&gt;Photography&lt;/h1&gt;
-&lt;p&gt;I like doing photography. Here are some stills&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="photos/gallery/selected/dsc_0059a.jpg"&gt;.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Photography&lt;/h1&gt;
-&lt;p&gt;I like doing photography. Here are some stills&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="photos/gallery/selected/dsc_0059a.jpg"&gt;.&lt;/p&gt;</content><category term="photography"></category><category term="hobbies"></category><category term="kalari"></category></entry><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-31T00:00:00+02:00</published><updated>2018-03-31T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-31:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Satyanarayan Rao</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-03-31T00:00:00+02:00</updated><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-31T00:00:00+02:00</published><updated>2018-03-31T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-31:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
 and, it is a bit of pain. Let me explain a couple of points which made me write
 this post.&lt;/p&gt;
 &lt;ul&gt;
@@ -62,4 +58,8 @@ structural deformations and its applications protein-DNA interactions. &lt;/p&gt
 &lt;p&gt;In my PhD work, I attempted to explain the effect of CpG methylation on
 shape-readout, one of the binding recognition mode, utilized by Transription
 Factors (TFs). The details can be found
-&lt;a href="https://doi.org/10.1186/s13072-018-0174-4"&gt;here&lt;/a&gt;. &lt;/p&gt;</content><category term="CpG methylation"></category><category term="methyl-induced shape-readout"></category><category term="methyl-DNAshape"></category></entry></feed>
+&lt;a href="https://doi.org/10.1186/s13072-018-0174-4"&gt;here&lt;/a&gt;. &lt;/p&gt;</content><category term="CpG methylation"></category><category term="methyl-induced shape-readout"></category><category term="methyl-DNAshape"></category></entry><entry><title>not-academics</title><link href="/not-academics.html" rel="alternate"></link><published>2018-02-07T00:00:00+01:00</published><updated>2018-02-07T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-02-07:/not-academics.html</id><summary type="html">&lt;h1&gt;Photography&lt;/h1&gt;
+&lt;p&gt;I like doing photography. Here are some stills&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="photos/gallery/selected/dsc_0059a.jpg"&gt;.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Photography&lt;/h1&gt;
+&lt;p&gt;I like doing photography. Here are some stills&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="photos/gallery/selected/dsc_0059a.jpg"&gt;.&lt;/p&gt;</content><category term="photography"></category><category term="hobbies"></category></entry></feed>
