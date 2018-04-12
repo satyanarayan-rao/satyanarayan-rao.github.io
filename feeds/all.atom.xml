@@ -25,12 +25,15 @@ All panels except &lt;code&gt;a&lt;/code&gt; is generated using seaborn customiz
 Codes are available &lt;a href="https://zenodo.org/record/1117976#.WsUcv1QrK91"&gt;here&lt;/a&gt;; see
 &lt;code&gt;HT_data_analyses&lt;/code&gt; and &lt;code&gt;Shape_analyses&lt;/code&gt; directories.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;: &lt;a href="https://github.com/saketkc"&gt;Saket Choudhary&lt;/a&gt;&lt;/p&gt;</content><category term="high-resolution-images-in-python"></category><category term="publication level images"></category></entry><entry><title>Bayesian inference to L2-regularized MLR</title><link href="/bayesian-inference-to-l2-regularized-mlr.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/bayesian-inference-to-l2-regularized-mlr.html</id><summary type="html">&lt;p&gt;I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
-and realizing the relationship between L2-regularized MLR and Bayesian
-perspective. On &lt;code&gt;page 30&lt;/code&gt;, he shows that if weights follow a
-gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
-and realizing the relationship between L2-regularized MLR and Bayesian
-perspective. On &lt;code&gt;page 30&lt;/code&gt;, he shows that if weights follow a
-gaussian distribution conditioned on selected hyper-parameter, then the maximum likelihood function would take the following form: &lt;/p&gt;
+and realize the relationship between L2-regularized MLR and Bayesian
+perspective. On &lt;code&gt;page 30&lt;/code&gt;, he shows that if weights follow a gaussian
+distribution conditioned on selected hyper-parameter, then the maximum
+likelihood would take the following form: &lt;/p&gt;
+&lt;div class="math"&gt;$$ \frac …&lt;/div&gt;</summary><content type="html">&lt;p&gt;I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
+and realize the relationship between L2-regularized MLR and Bayesian
+perspective. On &lt;code&gt;page 30&lt;/code&gt;, he shows that if weights follow a gaussian
+distribution conditioned on selected hyper-parameter, then the maximum
+likelihood would take the following form: &lt;/p&gt;
 &lt;div class="math"&gt;$$ \frac{\beta}{2}\sum\limits_{n = 1}^{N} \{y(x_{n}, \mathbf{w}) - t_{n}\}^2 + \frac{\alpha}{2}\mathbf{w}^T\mathbf{w} $$&lt;/div&gt;
 &lt;p&gt;Which is similar to L2-regularized MLR with: &lt;/p&gt;
 &lt;div class="math"&gt;$$ \lambda = \frac{\alpha}{\beta}$$&lt;/div&gt;
