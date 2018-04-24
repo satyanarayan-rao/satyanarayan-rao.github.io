@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Satyanarayan Rao - Concepts</title><link href="/" rel="alternate"></link><link href="/feeds/concepts.atom.xml" rel="self"></link><id>/</id><updated>2018-04-15T00:00:00+02:00</updated><entry><title>Linear Models</title><link href="/linear-models.html" rel="alternate"></link><published>2018-04-15T00:00:00+02:00</published><updated>2018-04-15T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-04-15:/linear-models.html</id><summary type="html">&lt;h1&gt;Linear model?&lt;/h1&gt;
-&lt;p&gt;Again referring the chapter #1 of Bishop's books, where describes some
+&lt;p&gt;Again referring the chapter #1 of Bishop's books, where he describes some
 fundamental concepts about linearity. &lt;/p&gt;
-&lt;h2&gt;Two apsects&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;Linear model?&lt;/h1&gt;
-&lt;p&gt;Again referring the chapter #1 of Bishop's books, where describes some
+&lt;h2&gt;Two apsects&lt;/h2&gt;
+&lt;p&gt;Will be updated soon!&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Linear model?&lt;/h1&gt;
+&lt;p&gt;Again referring the chapter #1 of Bishop's books, where he describes some
 fundamental concepts about linearity. &lt;/p&gt;
-&lt;h2&gt;Two apsects&lt;/h2&gt;</content></entry><entry><title>Bayesian inference to L2-regularized MLR</title><link href="/bayesian-inference-to-l2-regularized-mlr.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/bayesian-inference-to-l2-regularized-mlr.html</id><summary type="html">&lt;p&gt;I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
+&lt;h2&gt;Two apsects&lt;/h2&gt;
+&lt;p&gt;Will be updated soon!&lt;/p&gt;</content></entry><entry><title>Bayesian inference to L2-regularized MLR</title><link href="/bayesian-inference-to-l2-regularized-mlr.html" rel="alternate"></link><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-09:/bayesian-inference-to-l2-regularized-mlr.html</id><summary type="html">&lt;p&gt;I was really happy to read the chapter 1 of Bishop's Pattern Recognition book
 and realize the relationship between L2-regularized MLR and Bayesian
 perspective. On &lt;code&gt;page 30&lt;/code&gt;, he shows that if weights follow a gaussian
 distribution conditioned on selected hyper-parameter, then the maximum
