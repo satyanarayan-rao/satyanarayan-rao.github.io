@@ -10,7 +10,7 @@ fundamental concepts about linearity. &lt;/p&gt;
 &lt;p&gt;Will be updated soon!&lt;/p&gt;</content></entry><entry><title>Just for fun</title><link href="/just-for-fun.html" rel="alternate"></link><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-04-03:/just-for-fun.html</id><summary type="html">&lt;h1&gt;Random thoughts&lt;/h1&gt;
 &lt;p&gt;Its nice to see the following: 
 &lt;/p&gt;
-&lt;div class="math"&gt;$$ 9.1\prod{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
+&lt;div class="math"&gt;$$ 9.1x{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -22,10 +22,10 @@ fundamental concepts about linearity. &lt;/p&gt;
         linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
     }
 
-    var mathjaxscript …&lt;/script&gt;</summary><content type="html">&lt;h1&gt;Random thoughts&lt;/h1&gt;
+    var mathjaxscript = document …&lt;/script&gt;</summary><content type="html">&lt;h1&gt;Random thoughts&lt;/h1&gt;
 &lt;p&gt;Its nice to see the following: 
 &lt;/p&gt;
-&lt;div class="math"&gt;$$ 9.1\prod{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
+&lt;div class="math"&gt;$$ 9.1x{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
