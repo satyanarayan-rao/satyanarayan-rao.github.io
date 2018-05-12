@@ -7,7 +7,80 @@ fundamental concepts about linearity. &lt;/p&gt;
 &lt;p&gt;Again referring the chapter #1 of Bishop's books, where he describes some
 fundamental concepts about linearity. &lt;/p&gt;
 &lt;h2&gt;Two apsects&lt;/h2&gt;
-&lt;p&gt;Will be updated soon!&lt;/p&gt;</content></entry><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-31T00:00:00+02:00</published><updated>2018-03-31T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-31:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
+&lt;p&gt;Will be updated soon!&lt;/p&gt;</content></entry><entry><title>Just for fun</title><link href="/just-for-fun.html" rel="alternate"></link><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-04-03:/just-for-fun.html</id><summary type="html">&lt;h1&gt;Random thoughts&lt;/h1&gt;
+&lt;p&gt;Its nice to see the following: 
+&lt;/p&gt;
+&lt;div class="math"&gt;$$ 9.1\prod{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript …&lt;/script&gt;</summary><content type="html">&lt;h1&gt;Random thoughts&lt;/h1&gt;
+&lt;p&gt;Its nice to see the following: 
+&lt;/p&gt;
+&lt;div class="math"&gt;$$ 9.1\prod{9.1} + 9.1  = 91.91 $$&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry><entry><title>High-resolution-figures with seaborn and matplotlib</title><link href="/high-resolution-figures-with-seaborn-and-matplotlib.html" rel="alternate"></link><published>2018-03-31T00:00:00+02:00</published><updated>2018-03-31T00:00:00+02:00</updated><author><name>Satya</name></author><id>tag:None,2018-03-31:/high-resolution-figures-with-seaborn-and-matplotlib.html</id><summary type="html">&lt;p&gt;Often we run into issues of generating high-resolution figures for publication,
 and, it is a bit of pain. Let me explain a couple of points which made me write
 this post.&lt;/p&gt;
 &lt;ul&gt;
