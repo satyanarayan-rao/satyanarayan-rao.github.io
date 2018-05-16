@@ -22,6 +22,7 @@ fundamental concepts about linearity. &lt;/p&gt;
 &lt;div class="math"&gt;$$99.1\times{99.1} + 99.1 = 9919.91$$&lt;/div&gt;
 &lt;div class="math"&gt;$$999.1\times{999.1} + 999.1 = 999199.91$$&lt;/div&gt;
 &lt;div class="math"&gt;$$9999.1\times{9999.1} + 9999.1 = 99991999.91$$&lt;/div&gt;
+&lt;p&gt;The pattern in result (RHS) emerges out to be you repeat the number in LHS (&lt;code&gt;9.1&lt;/code&gt;) twice without decimals and put the decimal 2&lt;sup&gt;nd&lt;/sup&gt; from the right. &lt;/p&gt;
 &lt;p&gt;Still trying to find a mathematical proof that explains why the whole process only has only two digits (&lt;code&gt;9&lt;/code&gt; and &lt;code&gt;1&lt;/code&gt;)&lt;/p&gt;
 &lt;h1&gt;Orders: not so obvious&lt;/h1&gt;
 &lt;p&gt;Could you guess the next number: &lt;/p&gt;
